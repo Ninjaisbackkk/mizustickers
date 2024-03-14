@@ -7,7 +7,8 @@ let imageArray = [
   { name: "Fanny Aspirant",desc:"Mlbb character.", image: "./images/Fanny.jpg" },
   { name: "Zeref",desc:"IMMORTAL CHARACTER.", image: "./images/Zeref.jpg" },
   { name: "Solo Leveling",desc:"Bros doing solo push or go home.", image: "./images/Solo.jpg" },
-  { name: "Jujutsu Kaisen",desc:"Wonderful sticker for laptop.", image: "./images/kaisen.jpg" }
+  { name: "Jujutsu Kaisen",desc:"Wonderful sticker for laptop.", image: "./images/kaisen.jpg" },
+  
 ];
 
 function displayfunction(image){
