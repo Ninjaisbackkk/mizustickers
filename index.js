@@ -8,19 +8,20 @@ let imageArray = [
   { name: "Zeref",desc:"IMMORTAL CHARACTER.", image: "./images/Zeref.jpg" },
   { name: "Solo Leveling",desc:"Bros doing solo push or go home.", image: "./images/Solo.jpg" },
   { name: "Jujutsu Kaisen",desc:"Wonderful sticker for laptop.", image: "./images/kaisen.jpg" },
-  
-];
+  { name: "Naruto",desc:"Naruto stickers.", image: "./images/naruto.jpeg" },
+   { name: "Devil character sticker",desc:"Devil may cry stickers.", image: "./images/devil.jpg" },
+ ];
 
 function displayfunction(image){
     const items = `
-    <div class="col-md-4 mb-2" style="overflow: hidden;">
-          <div class="card">
+    <div class="col-md-4 mb-2 bg-dark" style="overflow: hidden;">
+          <div class="card" style="background-color:black">
             <img src="${image.image}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">${image.name}</h5>
-              <p class="card-text">${image.desc}</p>
-              <a href="#" class="btn btn-primary">Buy It</a>
-              <a href="#" class="btn btn-info">Add to cart</a>
+              <h5 class="card-title" style="color:white">${image.name}</h5>
+              <p class="card-text" style="color:white">${image.desc}</p>
+              <a href="#" class="btn btn-primary" style="background-color:purple;">Buy It</a>
+              <a href="#" class="btn btn-dark">Add to cart</a>
             </div>
           </div>
         </div>
